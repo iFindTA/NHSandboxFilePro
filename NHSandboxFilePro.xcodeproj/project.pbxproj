@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		605CC8191BD5ECEE00FA67F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 605CC8181BD5ECEE00FA67F7 /* main.m */; };
+		605CC81C1BD5ECEE00FA67F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 605CC81B1BD5ECEE00FA67F7 /* AppDelegate.m */; };
+		605CC81F1BD5ECEE00FA67F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 605CC81E1BD5ECEE00FA67F7 /* ViewController.m */; };
+		605CC8221BD5ECEE00FA67F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605CC8201BD5ECEE00FA67F7 /* Main.storyboard */; };
+		605CC8241BD5ECEE00FA67F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605CC8231BD5ECEE00FA67F7 /* Assets.xcassets */; };
+		605CC8271BD5ECEE00FA67F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605CC8251BD5ECEE00FA67F7 /* LaunchScreen.storyboard */; };
+		605CC8321BD5ECEE00FA67F7 /* NHSandboxFileProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 605CC8311BD5ECEE00FA67F7 /* NHSandboxFileProTests.m */; };
+		605CC83D1BD5ECEE00FA67F7 /* NHSandboxFileProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 605CC83C1BD5ECEE00FA67F7 /* NHSandboxFileProUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		605CC82E1BD5ECEE00FA67F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 605CC80C1BD5ECEE00FA67F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 605CC8131BD5ECEE00FA67F7;
+			remoteInfo = NHSandboxFilePro;
+		};
+		605CC8391BD5ECEE00FA67F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 605CC80C1BD5ECEE00FA67F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 605CC8131BD5ECEE00FA67F7;
+			remoteInfo = NHSandboxFilePro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		605CC8141BD5ECEE00FA67F7 /* NHSandboxFilePro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHSandboxFilePro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		605CC8181BD5ECEE00FA67F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		605CC81A1BD5ECEE00FA67F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		605CC81B1BD5ECEE00FA67F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		605CC81D1BD5ECEE00FA67F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		605CC81E1BD5ECEE00FA67F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		605CC8211BD5ECEE00FA67F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		605CC8231BD5ECEE00FA67F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		605CC8261BD5ECEE00FA67F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		605CC8281BD5ECEE00FA67F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605CC82D1BD5ECEE00FA67F7 /* NHSandboxFileProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHSandboxFileProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		605CC8311BD5ECEE00FA67F7 /* NHSandboxFileProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHSandboxFileProTests.m; sourceTree = "<group>"; };
+		605CC8331BD5ECEE00FA67F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605CC8381BD5ECEE00FA67F7 /* NHSandboxFileProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHSandboxFileProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		605CC83C1BD5ECEE00FA67F7 /* NHSandboxFileProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHSandboxFileProUITests.m; sourceTree = "<group>"; };
+		605CC83E1BD5ECEE00FA67F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		605CC8111BD5ECEE00FA67F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605CC82A1BD5ECEE00FA67F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605CC8351BD5ECEE00FA67F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		605CC80B1BD5ECEE00FA67F7 = {
+			isa = PBXGroup;
+			children = (
+				605CC8161BD5ECEE00FA67F7 /* NHSandboxFilePro */,
+				605CC8301BD5ECEE00FA67F7 /* NHSandboxFileProTests */,
+				605CC83B1BD5ECEE00FA67F7 /* NHSandboxFileProUITests */,
+				605CC8151BD5ECEE00FA67F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		605CC8151BD5ECEE00FA67F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				605CC8141BD5ECEE00FA67F7 /* NHSandboxFilePro.app */,
+				605CC82D1BD5ECEE00FA67F7 /* NHSandboxFileProTests.xctest */,
+				605CC8381BD5ECEE00FA67F7 /* NHSandboxFileProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		605CC8161BD5ECEE00FA67F7 /* NHSandboxFilePro */ = {
+			isa = PBXGroup;
+			children = (
+				605CC81A1BD5ECEE00FA67F7 /* AppDelegate.h */,
+				605CC81B1BD5ECEE00FA67F7 /* AppDelegate.m */,
+				605CC81D1BD5ECEE00FA67F7 /* ViewController.h */,
+				605CC81E1BD5ECEE00FA67F7 /* ViewController.m */,
+				605CC8201BD5ECEE00FA67F7 /* Main.storyboard */,
+				605CC8231BD5ECEE00FA67F7 /* Assets.xcassets */,
+				605CC8251BD5ECEE00FA67F7 /* LaunchScreen.storyboard */,
+				605CC8281BD5ECEE00FA67F7 /* Info.plist */,
+				605CC8171BD5ECEE00FA67F7 /* Supporting Files */,
+			);
+			path = NHSandboxFilePro;
+			sourceTree = "<group>";
+		};
+		605CC8171BD5ECEE00FA67F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				605CC8181BD5ECEE00FA67F7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		605CC8301BD5ECEE00FA67F7 /* NHSandboxFileProTests */ = {
+			isa = PBXGroup;
+			children = (
+				605CC8311BD5ECEE00FA67F7 /* NHSandboxFileProTests.m */,
+				605CC8331BD5ECEE00FA67F7 /* Info.plist */,
+			);
+			path = NHSandboxFileProTests;
+			sourceTree = "<group>";
+		};
+		605CC83B1BD5ECEE00FA67F7 /* NHSandboxFileProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				605CC83C1BD5ECEE00FA67F7 /* NHSandboxFileProUITests.m */,
+				605CC83E1BD5ECEE00FA67F7 /* Info.plist */,
+			);
+			path = NHSandboxFileProUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		605CC8131BD5ECEE00FA67F7 /* NHSandboxFilePro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605CC8411BD5ECEE00FA67F7 /* Build configuration list for PBXNativeTarget "NHSandboxFilePro" */;
+			buildPhases = (
+				605CC8101BD5ECEE00FA67F7 /* Sources */,
+				605CC8111BD5ECEE00FA67F7 /* Frameworks */,
+				605CC8121BD5ECEE00FA67F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NHSandboxFilePro;
+			productName = NHSandboxFilePro;
+			productReference = 605CC8141BD5ECEE00FA67F7 /* NHSandboxFilePro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		605CC82C1BD5ECEE00FA67F7 /* NHSandboxFileProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605CC8441BD5ECEE00FA67F7 /* Build configuration list for PBXNativeTarget "NHSandboxFileProTests" */;
+			buildPhases = (
+				605CC8291BD5ECEE00FA67F7 /* Sources */,
+				605CC82A1BD5ECEE00FA67F7 /* Frameworks */,
+				605CC82B1BD5ECEE00FA67F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				605CC82F1BD5ECEE00FA67F7 /* PBXTargetDependency */,
+			);
+			name = NHSandboxFileProTests;
+			productName = NHSandboxFileProTests;
+			productReference = 605CC82D1BD5ECEE00FA67F7 /* NHSandboxFileProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		605CC8371BD5ECEE00FA67F7 /* NHSandboxFileProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605CC8471BD5ECEE00FA67F7 /* Build configuration list for PBXNativeTarget "NHSandboxFileProUITests" */;
+			buildPhases = (
+				605CC8341BD5ECEE00FA67F7 /* Sources */,
+				605CC8351BD5ECEE00FA67F7 /* Frameworks */,
+				605CC8361BD5ECEE00FA67F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				605CC83A1BD5ECEE00FA67F7 /* PBXTargetDependency */,
+			);
+			name = NHSandboxFileProUITests;
+			productName = NHSandboxFileProUITests;
+			productReference = 605CC8381BD5ECEE00FA67F7 /* NHSandboxFileProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		605CC80C1BD5ECEE00FA67F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "hu jiaju";
+				TargetAttributes = {
+					605CC8131BD5ECEE00FA67F7 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					605CC82C1BD5ECEE00FA67F7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 605CC8131BD5ECEE00FA67F7;
+					};
+					605CC8371BD5ECEE00FA67F7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 605CC8131BD5ECEE00FA67F7;
+					};
+				};
+			};
+			buildConfigurationList = 605CC80F1BD5ECEE00FA67F7 /* Build configuration list for PBXProject "NHSandboxFilePro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 605CC80B1BD5ECEE00FA67F7;
+			productRefGroup = 605CC8151BD5ECEE00FA67F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				605CC8131BD5ECEE00FA67F7 /* NHSandboxFilePro */,
+				605CC82C1BD5ECEE00FA67F7 /* NHSandboxFileProTests */,
+				605CC8371BD5ECEE00FA67F7 /* NHSandboxFileProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		605CC8121BD5ECEE00FA67F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605CC8271BD5ECEE00FA67F7 /* LaunchScreen.storyboard in Resources */,
+				605CC8241BD5ECEE00FA67F7 /* Assets.xcassets in Resources */,
+				605CC8221BD5ECEE00FA67F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605CC82B1BD5ECEE00FA67F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605CC8361BD5ECEE00FA67F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		605CC8101BD5ECEE00FA67F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605CC81F1BD5ECEE00FA67F7 /* ViewController.m in Sources */,
+				605CC81C1BD5ECEE00FA67F7 /* AppDelegate.m in Sources */,
+				605CC8191BD5ECEE00FA67F7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605CC8291BD5ECEE00FA67F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605CC8321BD5ECEE00FA67F7 /* NHSandboxFileProTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605CC8341BD5ECEE00FA67F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605CC83D1BD5ECEE00FA67F7 /* NHSandboxFileProUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		605CC82F1BD5ECEE00FA67F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 605CC8131BD5ECEE00FA67F7 /* NHSandboxFilePro */;
+			targetProxy = 605CC82E1BD5ECEE00FA67F7 /* PBXContainerItemProxy */;
+		};
+		605CC83A1BD5ECEE00FA67F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 605CC8131BD5ECEE00FA67F7 /* NHSandboxFilePro */;
+			targetProxy = 605CC8391BD5ECEE00FA67F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		605CC8201BD5ECEE00FA67F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				605CC8211BD5ECEE00FA67F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		605CC8251BD5ECEE00FA67F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				605CC8261BD5ECEE00FA67F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		605CC83F1BD5ECEE00FA67F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		605CC8401BD5ECEE00FA67F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		605CC8421BD5ECEE00FA67F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NHSandboxFilePro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PullBear.NHSandboxFilePro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		605CC8431BD5ECEE00FA67F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NHSandboxFilePro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PullBear.NHSandboxFilePro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		605CC8451BD5ECEE00FA67F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NHSandboxFileProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PullBear.NHSandboxFileProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NHSandboxFilePro.app/NHSandboxFilePro";
+			};
+			name = Debug;
+		};
+		605CC8461BD5ECEE00FA67F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NHSandboxFileProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PullBear.NHSandboxFileProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NHSandboxFilePro.app/NHSandboxFilePro";
+			};
+			name = Release;
+		};
+		605CC8481BD5ECEE00FA67F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NHSandboxFileProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PullBear.NHSandboxFileProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NHSandboxFilePro;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		605CC8491BD5ECEE00FA67F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NHSandboxFileProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PullBear.NHSandboxFileProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NHSandboxFilePro;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		605CC80F1BD5ECEE00FA67F7 /* Build configuration list for PBXProject "NHSandboxFilePro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605CC83F1BD5ECEE00FA67F7 /* Debug */,
+				605CC8401BD5ECEE00FA67F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605CC8411BD5ECEE00FA67F7 /* Build configuration list for PBXNativeTarget "NHSandboxFilePro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605CC8421BD5ECEE00FA67F7 /* Debug */,
+				605CC8431BD5ECEE00FA67F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		605CC8441BD5ECEE00FA67F7 /* Build configuration list for PBXNativeTarget "NHSandboxFileProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605CC8451BD5ECEE00FA67F7 /* Debug */,
+				605CC8461BD5ECEE00FA67F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		605CC8471BD5ECEE00FA67F7 /* Build configuration list for PBXNativeTarget "NHSandboxFileProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605CC8481BD5ECEE00FA67F7 /* Debug */,
+				605CC8491BD5ECEE00FA67F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 605CC80C1BD5ECEE00FA67F7 /* Project object */;
+}
