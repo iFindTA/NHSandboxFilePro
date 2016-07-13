@@ -15,6 +15,7 @@
 		605CC8271BD5ECEE00FA67F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605CC8251BD5ECEE00FA67F7 /* LaunchScreen.storyboard */; };
 		605CC8321BD5ECEE00FA67F7 /* NHSandboxFileProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 605CC8311BD5ECEE00FA67F7 /* NHSandboxFileProTests.m */; };
 		605CC83D1BD5ECEE00FA67F7 /* NHSandboxFileProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 605CC83C1BD5ECEE00FA67F7 /* NHSandboxFileProUITests.m */; };
+		605CC84C1BD5ED0900FA67F7 /* NHUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 605CC84B1BD5ED0900FA67F7 /* NHUtils.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		605CC8381BD5ECEE00FA67F7 /* NHSandboxFileProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHSandboxFileProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		605CC83C1BD5ECEE00FA67F7 /* NHSandboxFileProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHSandboxFileProUITests.m; sourceTree = "<group>"; };
 		605CC83E1BD5ECEE00FA67F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605CC84A1BD5ED0900FA67F7 /* NHUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHUtils.h; sourceTree = "<group>"; };
+		605CC84B1BD5ED0900FA67F7 /* NHUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				605CC81B1BD5ECEE00FA67F7 /* AppDelegate.m */,
 				605CC81D1BD5ECEE00FA67F7 /* ViewController.h */,
 				605CC81E1BD5ECEE00FA67F7 /* ViewController.m */,
+				605CC84A1BD5ED0900FA67F7 /* NHUtils.h */,
+				605CC84B1BD5ED0900FA67F7 /* NHUtils.m */,
 				605CC8201BD5ECEE00FA67F7 /* Main.storyboard */,
 				605CC8231BD5ECEE00FA67F7 /* Assets.xcassets */,
 				605CC8251BD5ECEE00FA67F7 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				605CC81F1BD5ECEE00FA67F7 /* ViewController.m in Sources */,
 				605CC81C1BD5ECEE00FA67F7 /* AppDelegate.m in Sources */,
 				605CC8191BD5ECEE00FA67F7 /* main.m in Sources */,
+				605CC84C1BD5ED0900FA67F7 /* NHUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NHSandboxFilePro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PullBear.NHSandboxFilePro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NHSandboxFilePro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PullBear.NHSandboxFilePro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
